@@ -4,6 +4,11 @@
   if(toggle && nav){
     toggle.addEventListener('click', () => nav.classList.toggle('open'));
   }
+  if(nav){
+    nav.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => nav.classList.remove('open'));
+    });
+  }
 
   // Language switching: keep the same page name, switch /en/ <-> /ua/
   const langLinks = document.querySelectorAll('[data-lang]');

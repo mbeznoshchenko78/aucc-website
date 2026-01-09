@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>AUCCAtlanta.org</title>
+  <meta http-equiv="refresh" content="0; url=./en/index.html">
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial; background:#f8fafc; color:#0f172a; display:grid; place-items:center; height:100vh; margin:0}
+    a{color:#1d4ed8}
+  </style>
+</head>
+<body>
+  <div>
+    <p>Redirecting… If it doesn’t work, open <a href="./en/index.html">English</a> or <a href="./ua/index.html">Українська</a>.</p>
+  </div>
+  <script>
+    (function(){
+      try{
+        const lang = localStorage.getItem('aucc_lang') || 'en';
+        window.location.replace('./' + lang + '/index.html');
+      }catch(e){
+        // do nothing, meta refresh handles it
+      }
+    })();
+  </script>
+</body>
+</html>

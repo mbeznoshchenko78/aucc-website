@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Join · AUCCAtlanta.org</title>
+  <link rel="icon" href="../assets/img/favicon.png" type="image/png">
+  <link rel="stylesheet" href="../assets/styles.css"/>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="nav">
+      <a class="brand" href="index.html" aria-label="AUCC Atlanta home">
+        <img src="../assets/img/logo.png" alt="AUCC Atlanta logo">
+      </a>
+
+      <nav class="navlinks" data-navlinks>
+        <a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="events.html">Events</a>
+<a href="join.html">Join</a>
+<a href="resources.html">Resources</a>
+<a href="docs.html">Docs</a>
+<a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="actions">
+        <div class="lang" aria-label="Language">
+          <a href="#" data-lang="en">EN</a>
+          <a href="#" data-lang="ua">UA</a>
+        </div>
+        <button class="btn mobileToggle" data-mobile-toggle aria-label="Menu">☰</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <div class="pageHead">
+      <h2>Join AUCC</h2>
+      <p>Membership is open to individuals, students, and businesses. (Dues and exact benefits can be finalized by the board.)</p>
+    </div>
+    <div class="page">
+      
+<div class="twoCol">
+  <div class="card tile">
+    <span class="badge">Membership Types</span>
+    <h3>Choose a level</h3>
+    <ul class="list" style="margin-top:10px">
+      <li><strong>General Member</strong><br/><small>Voting rights + event access (dues: TBD)</small></li>
+      <li><strong>Student Member</strong><br/><small>Discounted dues (TBD) + learning focus</small></li>
+      <li><strong>Business Member</strong><br/><small>Visibility + sponsorship opportunities (TBD)</small></li>
+      <li><strong>Founding Member</strong><br/><small>Recognized supporters during launch (TBD)</small></li>
+    </ul>
+    <hr class="sep"/>
+    <small>Tip: once dues are set, add Stripe/PayPal payment links or a membership plugin.</small>
+  </div>
+
+  <div class="card tile">
+    <span class="badge">Interest Form</span>
+    <h3>Tell us about you</h3>
+    <form class="form" onsubmit="event.preventDefault(); alert('Prototype: form submission disabled.');">
+      <input class="input" placeholder="Full name"/>
+      <input class="input" placeholder="Email"/>
+      <input class="input" placeholder="City (optional)"/>
+      <select class="input">
+        <option>General</option>
+        <option>Student</option>
+        <option>Business</option>
+        <option>Founding</option>
+      </select>
+      <textarea class="input" placeholder="What would you like AUCC to offer? (topics, events, speakers)"></textarea>
+      <button class="btn primary" type="submit">Submit</button>
+      <small>This is a prototype form. In production, connect it to Google Forms, Mailchimp, or a WordPress form plugin.</small>
+    </form>
+  </div>
+</div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footerRow">
+      <div>© 2026 AUCC Atlanta · AUCCAtlanta.org</div>
+      <div><span class="badge">Learn. Connect. Prosper.</span></div>
+    </div>
+    <div style="margin-top:8px"><small>Prototype site for planning purposes. Replace placeholders with AUCC’s final details.</small></div>
+  </div>
+</footer>
+
+<script src="../assets/script.js"></script>
+</body>
+</html>

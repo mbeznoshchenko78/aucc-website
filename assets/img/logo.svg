@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="120" viewBox="0 0 520 120">
+  <rect x="0" y="0" width="520" height="120" rx="18" fill="#0b1220"/>
+  <circle cx="64" cy="60" r="34" fill="#1f6feb"/>
+  <circle cx="64" cy="60" r="18" fill="#f2cc60"/>
+  <text x="120" y="70" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="44" fill="#ffffff" font-weight="700">AUCC</text>
+  <text x="250" y="70" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="28" fill="#d1d5db" font-weight="600">Atlanta</text>
+</svg>
